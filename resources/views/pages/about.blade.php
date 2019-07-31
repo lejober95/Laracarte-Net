@@ -1,4 +1,4 @@
-@extends('layouts.default')
+@extends('layouts.default',['title'=>'about'])
 <html>
 <head>
 </head>
@@ -7,7 +7,8 @@
 @section('content')
 <div class="container">
 <h1> This is laracarte..</h1>
-<p> This is made. laracate is a closure of <a href='laracarte.com'>
+<p> This is made. laracate is a closure of 
+   <a href='https://github.com/lejober95/Laracarte-Net'>
 Laracarte.com
 </a></p>
 <div class="row">

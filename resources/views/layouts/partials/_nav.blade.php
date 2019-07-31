@@ -10,11 +10,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Home</a>
+          
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">About</a></li>
+          <li><a class=" {{root_active('root_path')}} "
+           href=" {{route('root_path')}} ">Home</a></li>
+            <li class=" {{root_active("about_path")}} "><a href="{{route('about_path')}}">About</a></li>
             <li><a href="#">Artisan</a></li>
             <li><a href="#">Contacts</a></li>
             <li class="dropdown">
