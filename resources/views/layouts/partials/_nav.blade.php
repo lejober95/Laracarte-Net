@@ -5,7 +5,7 @@
           <button type="button" class="navbar-toggle collapsed" 
           data-toggle="collapse" data-target="#navbar" 
           aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Laracarte</span>
+            <span class="sr-only"> {{config('app.name')}} </span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -18,7 +18,7 @@
            href=" {{route('root_path')}} ">Home</a></li>
             <li class=" {{root_active("about_path")}} "><a href="{{route('about_path')}}">About</a></li>
             <li><a href="#">Artisan</a></li>
-            <li><a href="#">Contacts</a></li>
+            <li class=" {{root_active('contacts')}} "><a href=" {{route('contacts')}} ">Contacts</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"
                role="button" aria-haspopup="true"

@@ -24,3 +24,4 @@ Route::get('/about',
 ]
 
 );
+Route::get('/contacts','contactsController@contacts')->name('contacts');

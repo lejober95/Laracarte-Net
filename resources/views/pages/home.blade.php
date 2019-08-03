@@ -5,8 +5,8 @@
 
 <body>
 @section('content')
-<h1> Laracate..</h1>
-<h1> This is laracarte..</h1>
+<h1> {{config('app.name')}}..</h1>
+<h1> This is {{config('app.name')}}..</h1>
 <p> This is made. laracate is a closure of
  <a href='laracarte.com' >  </a>Laracarte.com
 </a></p>

@@ -6,10 +6,10 @@
 <body>
 @section('content')
 <div class="container">
-<h1> This is laracarte..</h1>
-<p> This is made. laracate is a closure of 
+<h1> This is {{config('app.name')}}..</h1>
+<p> This is made. {{config('app.name')}} is a closure of 
    <a href='https://github.com/lejober95/Laracarte-Net'>
-Laracarte.com
+{{config('app.name')}}.com
 </a></p>
 <div class="row">
 <div class="col-sm-6">
